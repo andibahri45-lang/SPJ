@@ -1,0 +1,6 @@
+{
+  "name": "Nota Pesanan Web App",
+  "description": "Sistem Administrasi Nota Pesanan, Kwitansi, BAST, dan Surat Perjanjian Sewa dengan Ekspor Database MySQL XAMPP",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

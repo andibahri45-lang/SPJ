@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-none {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+@media print {
+  /* Hide all regular web UI elements */
+  .no-print,
+  header,
+  nav,
+  main,
+  footer,
+  aside,
+  button {
+    display: none !important;
+  }
+
+  /* Make sure print container takes full width and standard page style */
+  body, html {
+    background: white !important;
+    color: black !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  /* Standard page layout margins */
+  @page {
+    size: auto;
+    margin: 15mm 15mm 15mm 15mm;
+  }
+
+  /* Keep tables intact without splitting mid-row */
+  tr, img {
+    page-break-inside: avoid;
+  }
+}
+

@@ -1,0 +1,12 @@
+
+> react-example@0.0.0 lint
+> tsc --noEmit
+
+src/components/PrintTemplates.tsx(161,18): error TS17008: JSX element 'p' has no corresponding closing tag.
+src/components/PrintTemplates.tsx(167,20): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/PrintTemplates.tsx(168,19): error TS17015: Expected corresponding closing tag for JSX fragment.
+src/components/PrintTemplates.tsx(168,20): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/PrintTemplates.tsx(210,14): error TS17008: JSX element 'p' has no corresponding closing tag.
+src/components/PrintTemplates.tsx(216,16): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/PrintTemplates.tsx(217,15): error TS17015: Expected corresponding closing tag for JSX fragment.
+src/components/PrintTemplates.tsx(217,16): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
